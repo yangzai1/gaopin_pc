@@ -1,0 +1,225 @@
+.banner720{
+	width: 1140px;
+	height: 720px;
+	margin: 0 auto;
+	background: url(../images/pageBanner1.jpg) no-repeat;
+}
+.banner720 .textTop{
+	height: 124px;
+	width: 1140px;
+	padding-top: 125px;
+	text-align: center;
+}
+.banner720 .textTop .big{
+	font-size: 48px;
+	color:  white;
+	text-shadow: 1px 1px 30px #000
+}
+.banner720 .textTop .small{
+	font-size: 24px;
+	color:  white;
+	margin: 15px 0 20px;
+	text-shadow: 1px 1px 30px #000
+}
+.banner720 .search{
+	width: 760px;
+	height: 96px;
+	position: relative;
+	margin: 61px auto 0
+}
+.banner720 .search input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 25px 100px 25px 40px;
+	height: 96px;
+	width: 760px;
+	box-sizing: border-box;
+	font-size: 34px;
+	border:1px solid #323232
+}
+.banner720 .search input::-webkit-input-placeholder {
+	color: #000;
+}
+.banner720 .search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#000;
+}
+.banner720 .search input::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#000;
+}
+.banner720 .search input:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#000;
+}
+.banner720 .search a{
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 94px;
+	height: 94px;
+	overflow: hidden;
+
+}
+.banner720 .search a img{
+	position: absolute;
+}
+.banner720 .contBox{
+	position: relative;
+	margin-top: 120px;
+	height: 70px;
+}
+.banner720 .contBox h3{
+	font-size: 24px;
+	color:  white;
+	position: absolute;
+	height: 70px;
+	line-height: 70px;
+	font-weight: normal;
+}
+.banner720 .contBox h3:nth-child(1){
+	left: 12.5%;
+}
+.banner720 .contBox h3:nth-child(2){
+	left: 45%;
+}
+.banner720 .contBox h3:nth-child(3){
+	left: 78%;
+}
+.contentPage1{
+	width: 1140px;
+	margin: 60px auto 0;
+
+}
+.contentPage1 .top{
+	font-size: 30px;
+	margin-bottom: 27px;
+	text-align: center;
+}
+.contentPage1 .box .img{
+	overflow: hidden;
+	display: block;
+}
+.contentPage1 .box .img img{
+	transition: .3s all;
+}
+.contentPage1 .box .img:hover img{
+	transform: scale(1.1);
+}
+.contentPage1 .left{
+	margin-right: 27px
+}
+.contentPage1 .left .img{
+	position: relative;
+}
+.contentPage1 .left .img .icon{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: url(../images/icon1.jpg) no-repeat;
+	left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+    transform:none !important;
+}
+.contentPage1 .txtBox{
+	width: 555px;
+	height: 90px;
+	background: #323232;
+	transition: .3s all
+}
+.contentPage1 .txtBox:hover{
+	background: #000;
+}
+.contentPage1 .txtBox .word{
+	display: block;
+	color:  white;
+	padding: 23px 0 0 30px;
+	box-sizing: border-box;
+}
+.contentPage1 .txtBox .word p{
+	font-size: 18px
+}
+.contentPage1 .txtBox .word span{
+	font-size:12px;
+	color: #cccccc
+}
+.contentPage1 .txtBox .word h2{
+	font-size: 25px;
+	margin-right:20px;
+	margin-top:5px;
+}
+.contentPage1 .right .img{
+	position: relative;
+}
+.contentPage1 .right .img .icon{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: url(../images/icon1.jpg) no-repeat;
+	left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+    transform:none !important;
+}
+.contentPage1 .right .img .d1{
+	position: absolute;
+	width: 166px;
+	height: 90px;
+	border-top: 1px #fff solid;
+	border-left: 1px #fff solid;
+	left: 25px;
+	top: 25px
+}
+.contentPage1 .right .img .d2{
+	position: absolute;
+	width: 166px;
+	height: 90px;
+	border-bottom: 1px #fff solid;
+	border-right: 1px #fff solid;
+	right: 25px;
+	bottom: 25px
+}
+.contentPage1 .right .txtBox .word{
+	padding: 35px 0 0 30px;
+}
+.contentPage1 .right .txtBox .word h2{
+	margin-top:-5px;
+}
+.category{
+	width: 1140px;
+	height: 260px;
+	margin: 0 auto;
+}
+.category .top{
+	padding: 60px 0 30px;
+	font-size: 30px;
+	text-align: center;
+}
+.category .content{
+	height: 136px;
+	width: 845px;
+	margin: 0 auto;
+}
+.category .content div{
+	margin-right: 115px
+}
+.category .content div:nth-child(5){
+	margin:0;
+}
+.category .content div a{
+	display: block;
+	color: #323232;
+	font-size: 14px;
+	margin-bottom: 15px;
+	text-align:center;
+}
+.category .content div a:hover{
+	text-decoration: underline;
+}
+

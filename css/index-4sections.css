@@ -1,0 +1,757 @@
+/* 内容 4版 */
+
+.ad{
+	height: 400px;
+	width: 1140px;
+	margin: 75px auto 0;
+}
+.ad .left{
+	position: relative;
+}
+.ad .left a{
+	position: relative;
+	height: 400px;
+	display: block;
+	overflow: hidden;
+	width: 750px;
+}
+.ad .left:hover img{
+	transform: scale(1.1)
+}
+.ad .left img{
+	position: absolute;
+	transition: 0.4s all ease;
+	-moz-user-select: none; /*火狐*/
+   	-webkit-user-select: none;  /*webkit浏览器*/
+  	-ms-user-select: none;   /*IE10*/
+  	-khtml-user-select: none; /*早期浏览器*/
+   	user-select: none;
+}
+.ad .left .box{
+	height: 196px;
+	width: 196px;
+	position: absolute;
+	top: 60px;
+	left:35px;
+	font-size: 67px;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white
+}
+.ad .left .box span{
+	padding-left: 32px
+}
+.ad .left p{
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	top: 317px;
+	left: 30px;
+	letter-spacing: 3px;
+}
+.ad .left span.more{
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	top: 350px;
+	left: 30px;
+}
+.ad .right{
+	height: 400px;
+	width: 360px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.ad .right a{
+	display: block;
+	position: relative;
+}
+.ad .right a img{
+	-moz-user-select: none; /*火狐*/
+   	-webkit-user-select: none;  /*webkit浏览器*/
+  	-ms-user-select: none;   /*IE10*/
+  	-khtml-user-select: none; /*早期浏览器*/
+   	user-select: none;
+}
+.ad .right a .icon{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: white;
+	width: 216px;
+	height: 270px;
+	margin-top: -135px;
+	margin-left: -108px
+}
+.ad .right a .icon p{
+	text-align: center;
+	letter-spacing:2px
+}
+.ad .right a .icon .p1{
+	font-size: 27px;
+}
+.ad .right a .icon .p2{
+	font-size: 48px;
+	margin-top: 66px;
+}
+.ad .right a .icon .p3{
+	font-size: 20px;
+    margin-top: 67px;
+}
+.ad .right a .icon .p3 span{
+	font-size: 27px
+}
+.ad .right a .icon .p4{
+	font-size: 18px;
+    margin-top: 6px;
+    letter-spacing:0;
+}
+.ad .right img{
+	transition: 0.4s ease all
+}
+.ad .right:hover img{
+	transform: scale(1.1)
+}
+.ad .right .border{
+	position: absolute;
+	height: 400px;
+	width: 360px;
+	border: 1px solid white;
+	left: 0;
+	top: 0;
+	transition: 0.5s all;
+	opacity: 0;
+	filter: alpha(opacity:0)
+}
+.ad .right .border:hover{
+	transform: scale(0.8);
+	opacity: 1;
+	filter: alpha(opacity:80)
+}
+
+/* 第二版 */
+
+.section{
+	width: 1140px;
+	margin: 60px auto 0;
+	position: relative;
+	height: 815px
+}
+.section .top{
+	margin-bottom: 50px
+}
+.section .top ul li{
+	float: left;
+	width: 260px;
+	height: 57px;
+	border-left: 1px solid #323232;
+	border-top: 1px solid #323232;
+	border-bottom: 1px solid #323232;
+	padding-left:30px;
+	padding-top:20px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.section .top div{
+	width: 360px;
+	border:none;
+	border-bottom: 1px solid #323232;
+	padding: 0;
+	float: left;
+	height: 57px;
+	box-sizing: border-box;
+}
+.section .top div a{
+	display: block;
+	width: 122px;
+	height: 46px;
+	background: #323232;
+	margin-left:238px;
+	color: white;
+	line-height: 44px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 14px;
+	transition: 0.5s ease all;
+	border: 2px solid #323232;
+}
+.section .top div a:hover{
+	background: white;
+	color: #000;
+}
+#active{
+	border-bottom: none
+}
+
+/* 选项卡1 */
+.section .div1{
+	width: 1140px;
+}
+/* 透明层 */
+.section .cont{
+	background: url(../images/icon.jpg) left no-repeat;
+	position: absolute;
+	bottom: 20px;
+	left: 20px
+}
+.section .cont span{
+	display: inline-block;
+	height: 45px;
+	padding: 0 20px 0 20px;
+	margin-left: 40px;
+	opacity: 0.8;
+	filter: alpha(opacity:80);
+	line-height: 45px;
+	background: #323232;
+	color: white;
+	font-size: 15px
+}
+
+/* 选项卡1-第1列 */
+.section .div1 .col-1{
+	width: 360px;
+	margin-right: 30px;
+}
+.section .div1 .col-1 .a1{
+	display: block;
+	width: 360px;
+	height: 240px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div1 .col-1 .a1 img{
+	width: 360px;
+	height: 240px;
+	transition: all 0.3s
+}
+.section .div1 .col-1 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div1 .col-1 .a2{
+	display: block;
+	padding: 35px;
+	margin-top: 30px;
+	color: white;
+	background: #323232;
+}
+.section .div1 .col-1 .a2 h2{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 36px;
+	border-bottom: 1px #4f4f4f solid;
+	font-weight: normal;
+}
+.section .div1 .col-1 .a2 p{
+	font-size: 24px
+}
+.section .div1 .col-1 .a2 div{
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.6;
+	filter: alpha(opacity:60);
+	color: white;
+	margin-top: 30px;
+	transition: all 0.3s；
+}
+.section .div1 .col-1 .a2:hover div{
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+/* 选项卡1-第2列 */
+.section .div1 .col-2{
+	width: 263px;
+	margin-right:29px;
+}
+.section .div1 .col-2 .a1{
+	display: block;
+	width: 263px;
+	height: 404px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div1 .col-2 .a1 img{
+	width: 263px;
+	height: 404px;
+	transition: all 0.3s
+}
+.section .div1 .col-2 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div1 .col-2 .a2{
+	display: block;
+	margin-top: 30px;
+	width: 263px;
+	height: 277px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+}
+.section .div1 .col-2 .a2 img{
+	width: 263px;
+	height: 277px;
+	transition: all 0.3s
+}
+.section .div1 .col-2 .a2:hover img{
+	transform: scale(1.1);
+}
+/* 选项卡1-第3列 */
+.section .div1 .col-3{
+	width: 458px;
+}
+.section .div1 .col-3 .a1{
+	display: block;
+	width: 458px;
+	height: 438px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div1 .col-3 .a1 img{
+	width: 458px;
+	height: 438px;
+	transition: all 0.3s
+}
+.section .div1 .col-3 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div1 .col-3 .a2{
+	display: block;
+	margin-top: 30px;
+	width: 458px;
+	height: 220px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+}
+.section .div1 .col-3 .a2 img{
+	width: 458px;
+	height: 220px;
+	transition: all 0.3s
+}
+.section .div1 .col-3 .a2:hover img{
+	transform: scale(1.1);
+}
+
+/* 选项卡2 */
+.section .div2{
+	position: absolute;
+	width: 1140px;
+	height: 500px;
+	left: 0;
+	top: 0;
+	display: none;
+	margin-top: 107px
+}
+/* 选项卡2-第1列 */
+.section .div2{
+	position: absolute;
+	width: 1140px;
+	height: 500px;
+	left: 0;
+	top: 0
+}
+.section .div2 .col-1{
+	width: 360px;
+	margin-right: 30px;
+}
+.section .div2 .col-1 .a1{
+	display: block;
+	width: 360px;
+	height: 287px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div2 .col-1 .a1 img{
+	width: 360px;
+	height: 287px;
+	transition: all 0.3s
+}
+.section .div2 .col-1 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div2 .col-1 .a2{
+	display: block;
+	padding: 35px;
+	margin-top: 30px;
+	color: white;
+	background: #323232;
+}
+.section .div2 .col-1 .a2 h2{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 36px;
+	border-bottom: 1px #4f4f4f solid;
+	font-weight: normal;
+}
+.section .div2 .col-1 .a2 p{
+	font-size: 24px
+}
+.section .div2 .col-1 .a2 div{
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.6;
+	filter: alpha(opacity:60);
+	color: white;
+	margin-top: 30px;
+	transition: all 0.3s；
+}
+.section .div2 .col-1 .a2:hover div{
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+/* 选项卡2-第2列 */
+.section .div2 .col-2{
+	width: 263px;
+	margin-right:29px;
+}
+.section .div2 .col-2 .a1{
+	display: block;
+	width: 263px;
+	height: 248px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div2 .col-2 .a1 img{
+	width: 263px;
+	height: 248px;
+	transition: all 0.3s
+}
+.section .div2 .col-2 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div2 .col-2 .a2{
+	display: block;
+	margin-top: 30px;
+	width: 263px;
+	height: 349px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+}
+.section .div2 .col-2 .a2 img{
+	width: 263px;
+	height: 349px;
+	transition: all 0.3s
+}
+.section .div2 .col-2 .a2:hover img{
+	transform: scale(1.1);
+}
+/* 选项卡2-第3列 */
+.section .div2 .col-3{
+	width: 458px;
+}
+.section .div2 .col-3 .a1{
+	display: block;
+	width: 458px;
+	height: 438px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div2 .col-3 .a1 img{
+	width: 458px;
+	height: 438px;
+	transition: all 0.3s
+}
+.section .div2 .col-3 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div2 .col-3 .a2{
+	display: block;
+	margin-top: 30px;
+	width: 458px;
+	height: 220px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+}
+.section .div2 .col-3 .a2 img{
+	width: 458px;
+	height: 218px;
+	transition: all 0.3s
+}
+.section .div2 .col-3 .a2:hover img{
+	transform: scale(1.1);
+}
+
+/* 选项卡3 */
+.section .div3{
+	position: absolute;
+	width: 1140px;
+	height: 500px;
+	left: 0;
+	top: 0;
+	display: none;
+	margin-top: 107px
+}
+/* 选项卡3-第1列 */
+.section .div3{
+	position: absolute;
+	width: 1140px;
+	height: 500px;
+	left: 0;
+	top: 0
+}
+.section .div3 .col-1{
+	width: 360px;
+	margin-right: 30px;
+}
+.section .div3 .col-1 .a1{
+	display: block;
+	width: 360px;
+	height: 183px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div3 .col-1 .a1 img{
+	width: 360px;
+	height: 183px;
+	transition: all 0.3s
+}
+.section .div3 .col-1 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div3 .col-1 .a2{
+	display: block;
+	padding: 35px;
+	margin-top: 30px;
+	color: white;
+	background: #323232;
+}
+.section .div3 .col-1 .a2 h2{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 36px;
+	border-bottom: 1px #4f4f4f solid;
+	font-weight: normal;
+}
+.section .div3 .col-1 .a2 p{
+	font-size: 24px
+}
+.section .div3 .col-1 .a2 div{
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.6;
+	filter: alpha(opacity:60);
+	color: white;
+	margin-top: 30px;
+	transition: all 0.3s；
+}
+.section .div3 .col-1 .a2:hover div{
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+/* 选项卡2-第2列 */
+.section .div3 .col-2{
+	width: 263px;
+	margin-right:29px;
+}
+.section .div3 .col-2 .a1{
+	display: block;
+	width: 263px;
+	height: 258px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div3 .col-2 .a1 img{
+	width: 263px;
+	height: 258px;
+	transition: all 0.3s
+}
+.section .div3 .col-2 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div3 .col-2 .a2{
+	display: block;
+	margin-top: 30px;
+	width: 263px;
+	height: 386px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+}
+.section .div3 .col-2 .a2 img{
+	width: 263px;
+	height: 386px;
+	transition: all 0.3s
+}
+.section .div3 .col-2 .a2:hover img{
+	transform: scale(1.1);
+}
+/* 选项卡2-第3列 */
+.section .div3 .col-3{
+	width: 458px;
+}
+.section .div3 .col-3 .a1{
+	display: block;
+	width: 458px;
+	height: 308px;
+	overflow: hidden;
+	position: relative;
+}
+.section .div3 .col-3 .a1 img{
+	width: 458px;
+	height: 308px;
+	transition: all 0.3s
+}
+.section .div3 .col-3 .a1:hover img{
+	transform: scale(1.1);
+}
+.section .div3 .col-3 .a2{
+	display: block;
+	margin-top: 30px;
+	width: 458px;
+	height: 232px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+}
+.section .div3 .col-3 .a2 img{
+	width: 458px;
+	height: 232px;
+	transition: all 0.3s
+}
+.section .div3 .col-3 .a2:hover img{
+	transform: scale(1.1);
+}
+
+/* row3 */
+.row3{
+	width: 1140px;
+	height: 480px;
+	margin: 60px auto 0;
+}
+.row3 .left{
+	width: 650px;
+	height: 480px;
+	position: relative;
+	background: url(../images/row3.jpg) no-repeat;
+}
+.row3 .left img{
+	position: absolute;
+}
+.row3 .left .cont{
+	padding:70px 40px 0 40px;
+	height: 290px;
+	color: white;
+	font-size:18px;
+	text-align: center;
+	position: absolute;
+	border:2px #fff solid;
+	left: 10%;
+	top: 12%
+}
+.row3 .left .cont p{
+	margin-top: 35px
+}
+.row3 .left .cont .header{
+	font-size: 36px;
+	margin-bottom: 15px;
+	width: 436px;
+	height: 111px;
+}
+.row3 .left .cont .header small{
+	font-size: 24px;
+	display: block;
+	margin-top: 10px
+}
+.row3 .right{
+	width: 490px;
+	height: 480px;
+	background: #323232;
+}
+.row3 .right .cont{
+	padding: 60px;
+	color: white;
+}
+.row3 .right .cont .header{
+	width: 370px;
+	height: 64px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px
+}
+.row3 .right .cont .input-group input{
+	width: 370px;
+	height: 50px;
+	margin-bottom: 15px
+}
+.row3 .right .cont .txt{
+	font-size: 12px;
+	color: white;
+	margin-bottom: 10px;
+}
+.row3 .right .cont .txt a{
+	color: red;
+	font-size: 12px;
+}
+.row3 .right .cont .btn a{
+	display: block;
+	font-size: 20px;
+	padding: 6px;
+	background: #6031ba;
+	text-align: center;
+	color: white;
+	border: 2px #6031ba solid;
+	transition: all 0.3s;
+}
+.row3 .right .cont .btn a:hover{
+	background: #51299d;
+}
+
+.row4{
+	width: 1140px;
+	margin:60px auto 0;
+	height: 340px;
+}
+.row4 .left{
+	width: 650px;
+	height: 340px;
+	color: white;
+	background: #323232;
+	font-size: 16px;
+	text-align: center;
+}
+.row4 .left .cont{
+	padding: 60px 20px 0 20px;
+}
+.row4 .left .cont .header{
+	font-size: 40px;
+	margin: 10px 0
+}
+.row4 .left .cont p{
+	margin-bottom: 15px;
+	line-height: 25px
+}
+.row4 .left .cont .btn{
+	width: 426px;
+	height: 50px;
+	margin: 20px auto 0;
+	background: #6031ba;
+}
+.row4 .left .cont .btn a{
+	display: block;
+	background: #6031ba;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+}
+.row4 .left .cont .btn:hover a{
+	background: #51299d;
+}
+.row4 .right{
+	position: relative;
+}
+.row4 .right img{
+	width: 490px;
+	height: 340px;
+}
+.row4 .right div{
+	position: absolute;
+	width: 362px;
+	height: 224px;
+	border: 2px #fff solid;
+    left: 13%;
+    top: 17%;
+    z-index: 4;
+}
+

@@ -1,0 +1,80 @@
+/* banner */
+
+.banner{
+	max-width: 1920px;
+	margin:0 auto;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+.banner .search{
+	position: absolute;
+	height: 96px;
+	width: 877px;
+	z-index: 10;
+	top: 30%;
+	left: 50%;
+	margin-left: -438px
+}
+.banner .search a{
+	display: block;
+	position: absolute;
+}
+.banner .search a img{
+	position: absolute;
+}
+.banner .search input{
+	position: absolute;
+	top:0;
+	left: 0;
+	padding: 25px 100px 25px 40px;
+	height: 96px;
+	width: 877px;
+	box-sizing: border-box;
+	font-size: 34px;
+	border:1px solid #323232
+}
+.banner .search input::-webkit-input-placeholder {
+	color: #000;
+}
+.banner .search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#000;
+}
+.banner .search input::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#000;
+}
+.banner .search input:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#000;
+}
+.banner .search a{
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	display: block;
+	height: 94px;
+	width: 94px;
+	overflow: hidden;
+}
+.banner p{
+	position: absolute;
+	top: 407px;
+	left: 30px;
+	height: 40px;
+	font-size: 9px;
+	color:white;
+}
+.banner p a:hover{
+	background: rgba(50,50,50,1);
+}
+.banner p a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px 0 15px;
+	box-sizing: border-box;
+	font-size: 11px;
+	color:white;
+	background: rgba(50,50,50,.8);
+	float: left;
+}

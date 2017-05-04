@@ -1,0 +1,90 @@
+/* 底部 */
+footer{
+	background: #323232;
+	margin-top: 80px;
+	height: 515px;
+}
+footer .box{
+	width: 1140px;
+	height: 455px;
+	margin: 0 auto;
+	padding-top: 60px
+}
+footer .box h5{
+	font-size: 16px;
+	color: white;
+	height: 60px;
+	font-weight: normal;
+}
+footer .footer-a1{
+	width: 64px;
+	display: block;
+}
+footer .box .content .left .p1{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: white;
+	padding-left: 20px
+}
+footer .box .content .left .p1:nth-child(1){
+	background: url(../images/dialog.jpg) no-repeat left;
+}
+footer .box .content .left p:nth-child(3){
+	background: url(../images/message.jpg) no-repeat left;
+}
+footer .box .content .left .p2{
+	font-size: 16px;
+	margin-bottom: 6px;
+	color: white
+}
+footer .box .content .left h5{
+	font-weight: normal;
+	margin-top: 40px
+}
+footer .box .content .left .media .d1{
+	margin-right:20px
+}
+footer .box .content .left .media div div{
+	color:  white;
+	font-size: 12px;
+	text-align: center;
+}
+footer .box .content h5{
+	font-weight: bold
+}
+footer .box .content .right{
+	margin-left:170px
+}
+footer .box .content .right div{
+	margin-right:110px;
+}
+footer .box .content .right ul{
+	margin-bottom: 15px
+}
+footer .box .content .right h5{
+	margin-bottom: 18px;
+	height: 100%
+}
+footer .box .content .right a{
+	font-size: 12px;
+	color: #969798
+}
+footer .box .content .right a:hover{
+	text-decoration:underline;
+	color: white 
+}
+.rule{
+	height: 70px;
+	background: #2e2e2e;
+}
+.rule .box{
+	width: 1140px;
+	height: 45px;
+	margin:0 auto;
+	padding-top:25px;
+}
+.rule .box small{
+	color: #999999;
+	font-size: 8px;
+	margin-left:45px;
+}

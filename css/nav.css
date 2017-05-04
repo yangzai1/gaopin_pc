@@ -1,0 +1,100 @@
+/* 导航 */
+a{
+	font-family: '微软雅黑'
+}
+header{
+	width: 1140px;
+	height: 95px;
+	margin: 0 auto;
+}
+header .index{
+	padding-top: 20px
+}
+header .nav{
+	margin-left: 35px;
+	padding-top: 23px
+}
+header .nav li{
+	float: left;
+	padding-top: 15px;
+	height: 55px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+header .nav li:hover{
+	background: #323232;
+	border-bottom: 2px solid #6031ba;
+}
+header .nav li:nth-child(6){
+	background: none;
+	border:none;
+}
+header .nav li:hover li{
+	background: #7d7d7d;
+	border:none;
+}
+header .nav li:hover a{
+	color: white
+}
+header .nav li:hover .nav2{
+	display: block;
+}
+header .nav li a{
+	color: #323233;
+	font-size: 16px;
+	padding: 0 15px;
+	margin-bottom: 10px;
+	display: block;
+}
+header .nav li .nav2 {
+	position: absolute;
+	top: 31px;
+	display: none;
+	margin-top: 24px;
+	z-index: 1000
+}
+header .nav li .nav2 li:nth-child(1){
+	background: #fff;
+	height: 11px;
+	margin-top:6px;
+}
+header .nav li .nav2 li{
+	float: none;
+	padding: 0;
+	width: 102px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background: rgba(50,50,50,.7);
+}
+header .nav li .nav2 li:hover{
+	background: rgba(96,49,186,.8);
+}
+header .nav li .nav2 li:nth-child(1):hover{
+	background: #fff;
+	box-shadow: none;
+}
+header .nav li .nav2 li a{
+	font-size: 16px;
+	padding: 0;
+}
+header #click{
+	padding-top: 30px;
+	margin-left: 120px
+}
+header #click a{
+	display: block;
+	float: left;
+}
+header #click a:nth-child(1){
+	padding: 12px;
+	margin-top: -2px;
+	padding-left: 13px;
+	padding-top: 13px
+}
+header #click a:nth-child(2){
+	margin-top: -3px;
+	margin-left: 15px;
+	padding:11px 15px 11px 15px;
+}

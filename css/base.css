@@ -1,0 +1,10 @@
+/* 准备工作 */
+*{ margin:0; padding: 0;  }
+li{ list-style: none;}
+img{ display: block; }
+a{ text-decoration: none }
+.clearFix{ zoom: 1; }
+.clearFix:after{ content: ''; clear:both; display: block; }
+.fl{ float: left; }
+.fr{ float: right; }
+input{ outline: none;}
